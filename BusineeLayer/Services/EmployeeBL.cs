@@ -30,7 +30,10 @@ namespace BusineeLayer.Services
         {
             return Employee.RLGetEmployee(id);
         }
-
+        /// <summary>
+        /// comments
+        /// </summary>
+        /// <returns></returns>
         public List<Employee> GetEmployees()
         {
             return Employee.RLGetEmployees();
